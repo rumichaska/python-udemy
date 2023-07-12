@@ -1,0 +1,115 @@
+<!-- Vamos a indicar que vamos a usar html 5 -->
+<!doctype html>
+<html>
+<!-- Dentro de <head> va información complementaria como códigos
+a ejecutar, estilos, etc. No se muestra en el sitio web -->
+
+<head>
+    <!-- Etiqueta para nombrar el sitio web -->
+    <title>Mi primera página</title>
+</head>
+<!-- Dentro de <body> va el contenido a mostrar en el sitio web -->
+
+<body>
+    <!-- Etiquetas básicas -->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <p>Hola! yo soy un párrafo!</p>
+    <!-- <hr /> sintaxis indica que la etiqueta no va a tener contenido -->
+    <hr />
+    <p>Hola! <br />yo soy un párrafo 2!</p>
+    <p>Hola! yo soy un <b>párrafo 3!</b></p>
+    <blockquote>Esta es una cita!</blockquote>
+    <code>soy código</code>
+    <em>Soy texto con énfasis!</em>
+    <i>Soy texto con cursiva!</i>
+    <pre>Preformateado</pre>
+    <s>Preformateado</s>
+    <small>Pequeño</small>
+    <strong>Este es un texto negrita</strong>
+    <u>Este es un texto subrayado</u>
+    <div>Sección 1!</div>
+    <div>Sección 2!</div>
+    <div>Sección 3!</div>
+    <!-- Formularios -->
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label>Edad</label>
+            <input type="number" placeholder="Ingresa edad...">
+            <br />
+            <label>Contraseña</label>
+            <input type="password">
+            <br />
+            <label>Nombre</label>
+            <input type="text" />
+            <br />
+            <input type="submit" value="Acepta" />
+            <textarea></textarea>
+            <button>Aceptar</button>
+            <select>
+                <option value="goku">Goku</option>
+                <option value="vegeta">Vegeta</option>
+                <option value="gohan">Gohan</option>
+            </select>
+        </fieldset>
+    </form>
+    <!-- Imágenes -->
+    <img src="https://placekitten.com/200/200" />
+    <a href="https://www.google.com.pe">Ir a google</a>
+    <!-- Lista -->
+    <!-- No ordenada -->
+    <ul>
+        <!-- <li> para elemento de la lista -->
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <!-- Ordenada -->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+    <!-- Tablas -->
+    <!-- Están compuestos por 3 elementos -->
+    <table>
+        <!-- 1. Cabecera -->
+        <thead>
+            <!-- Filas -->
+            <tr>
+                <!-- Contenido de las celdas -->
+                <th>Mes</th>
+                <th>Ahorros</th>
+            </tr>
+        </thead>
+        <!-- 2. Contenido -->
+        <tbody>
+            <!-- Filas -->
+            <tr>
+                <!-- Contenido de las celdas -->
+                <td>Enero</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>Febrero</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+        <!-- 3. Footer -->
+        <tfoot>
+            <!-- Filas -->
+            <tr>
+                <!-- Contenido del footer -->
+                <td>Suma total:</td>
+                <td>1500</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
