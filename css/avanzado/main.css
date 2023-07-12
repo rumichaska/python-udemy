@@ -1,0 +1,54 @@
+body {
+    background-color: #eee;
+}
+
+/* Fondos */
+
+.fondo {
+    height: 400px;
+    background-color: yellowgreen;
+    background-image: url("https://placekitten.com/200/300");
+    /* para no repetir la imagen en el fondo, además de otras propiedades */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* todo se puede poner en una sola línea */
+    /* background: green url("https://placekitten.com/200/300") no-repeat top left fixed; */
+}
+
+/* Opacidad */
+
+.opacidad {
+    /* background-color: rgba(255, 255, 0, 0.5); */
+    background-color: hsl(120, 60%, 70%); /* También acepta alpha */
+    opacity: 0.5; /* Afecta al elemenot completo */
+}
+
+/* Gradientes */
+
+.gradiente {
+    /* background-image: linear-gradient(direccion, color1, color2, ...); */
+    /* background-image: linear-gradient(to left top, Blue, #ccc, Red); */
+    /* se puede omitir la direccion */
+    /* background-image: linear-gradient(White, #ccc); */
+    /* la direccion acepta tambien angulos 45deg */
+    /* background-image: linear-gradient(-45deg, Blue, #ccc, Red); */
+    /* se puede usar cualquier formato de color */
+    /* background-image: linear-gradient(90deg, rgb(23, 231 ,12), #ccc, Tomato); */
+    /* podemos repetir y establecer cuanto cubre cada color */
+    background-image: repeating-linear-gradient(0deg, rgb(23, 231 ,12) 10%, Tomato 20%);
+}
+
+/* Sombras */
+
+.box {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    color: White;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}

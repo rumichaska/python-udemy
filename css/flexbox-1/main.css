@@ -1,0 +1,41 @@
+body {
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* direction y wrap se puede resumir en: */
+    flex-flow: row wrap;
+    /* Alinear horizontalmente */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* Alinear verticalmente */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* Alinear contenido */
+    height: 200px;
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: stretch; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    align-content: space-evenly;
+}
+
+.red {
+    background-color: red;
+}

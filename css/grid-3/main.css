@@ -1,0 +1,47 @@
+body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer";
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+    grid-auto-rows: 140px;
+    /* grid-auto-flow: column; */
+    grid-auto-flow: row;
+    /* Alinear horizontalmente */
+    /* justify-items: center; */
+    /* justify-items: start; */
+    /* justify-items: end; */
+    justify-items: stretch;
+    /* Alinear verticalmente */
+    /* align-items: start; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: end; */
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* Alinear un elemento dentro de la grilla */
+.item-1 {
+    /* Alinear horizontalmente */
+    /* justify-self: start; */
+    justify-self: center;
+    /* justify-self: end; */
+    /* justify-self: stretch; */
+    /* Alinear verticalmente */
+    /* align-self: start; */
+    align-self: center;
+    /* align-self: stretch; */
+    /* align-self: end; */
+}

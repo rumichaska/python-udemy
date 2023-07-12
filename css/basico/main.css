@@ -1,0 +1,35 @@
+/* Etiquetas */
+
+body {
+    background-color: #eeeeee;
+    color: #ff0000;
+}
+
+/* ID, para elementos únicos */
+
+#parrafo {
+    color: #aaa000;
+}
+
+/* Clases, para muchos elementos */
+
+.etiqueta {
+    color: #00aa00
+}
+
+.caja {
+    margin: 8px;
+    padding: 8px;
+    /* NOTE: orden cuando se pone mas de un tipo en el mismo elemento trbl */
+    border-style: dotted dashed solid double;
+    border-width: 8px;
+    border-color: greenyellow;
+    /* NOTE: podemos pasar mas de un argumento a un elemento */
+    border-right: solid blueviolet 4px;
+    border-radius: 8px;
+    background-color: palegoldenrod;
+    /* NOTE: se pueden editar las dimensiones de la caja */
+    height: 120px;
+    width: 120px;
+    color: blue;
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: #eeeeee;
+}
+
+/* NOTE: Se se pasa la propiedad de display: inline; a un bloque, se lo
+* convierte a inline*/
+
+.pinline {
+    display: inline;
+}
+
+#invisible {
+    display: none;
+}
+
+.sbloque {
+    display: block;
+}
+
+.maxw {
+    max-width: 400px;
+    background-color: #f00;
+    margin: auto;
+}
+
+.pfixed {
+    max-width: 400px;
+    background-color: #f00;
+    margin: auto;
+    position: fixed;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#over {
+    width: 100px;
+    height: 100px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+img {
+    /* float: left; */
+    float: right;
+    opacity: 1;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+div p {
+    color: blue;
+}

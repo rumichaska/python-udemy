@@ -1,0 +1,17 @@
+body {
+    background-color: #eeeeee;
+}
+
+/* Listas */
+ul {
+    background-color: white;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+}
