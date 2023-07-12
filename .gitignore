@@ -1,0 +1,8 @@
+# Directorios
+/python/data
+/python/config
+/python_sql/README.md
+__pycache__/
+envs/
+*.db
+*.pyc
