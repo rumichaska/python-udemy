@@ -4,5 +4,6 @@
 /python_sql/README.md
 __pycache__/
 envs/
+*.env
 *.db
 *.pyc
