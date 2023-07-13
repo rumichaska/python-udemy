@@ -1,0 +1,14 @@
+name: todolist
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - flask
+  - mysql-connector-python
+  - werkzeug
+  - python-dotenv
+  - pylint
+  - ipython
+variables:
+  FLASK_APP: todo
