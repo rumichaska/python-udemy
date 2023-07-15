@@ -3,7 +3,10 @@
 /python/config
 /python_sql/README.md
 __pycache__/
+build/
+dist/
 envs/
 *.env
 *.db
 *.pyc
+*.spec
